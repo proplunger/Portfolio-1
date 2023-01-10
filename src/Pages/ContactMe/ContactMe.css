@@ -1,0 +1,61 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    height: 120px;
+}
+
+input[type="email"],
+textarea {
+    color: black;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ce0f0f;
+}
+
+input[name="user_name"] {
+    color: black;
+}
